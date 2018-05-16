@@ -1,35 +1,38 @@
-body { 
-    padding-top: 65px; 
-}
+body {}
 
-
-html {
-    font-family: 'Roboto', sans-serif;
-    font-weight: 300;
-  
-}
-
-nav{
-height: 180px;
-text-decoration: none;
-}
-
-h1,h2,h3,h4,h5,h6{
-    font-weight: 300;
-    margin-left: 20px;
-
+a.nav-link {
+    text-decoration: none;
+    font-family: 'Montserrat', Helvetica, Arial, sans-serif;
+    font-weight: 1000;
     
 }
 
-.counter{
+html {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.navbar {
+    height: 150px;
+    text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: 300;
+    margin-left: 20px;
+}
+
+.counter {
     height: 100%;
     width: 100%;
     margin-left: 20px;
 }
 
-.machine{
+.machine {
     height: 500px;
     width: 100%;
-   
 }
-
